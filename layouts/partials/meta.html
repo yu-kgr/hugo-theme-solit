@@ -5,8 +5,9 @@
 {{ with .Site.Params.contact }}<meta name="contact" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 
+<link rel="shortcut icon" href="https://kglabo.com/favicon.ico" />
+<link rel="icon" href="https://kglabo.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/logo.png">
 {{ with .RSSLink }}<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ . }}">{{ end }}
 
 <link rel="canonical" href="{{ .Permalink }}">
-
